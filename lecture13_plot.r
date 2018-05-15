@@ -25,7 +25,7 @@ summary( expr[expr[,2] == "A/G",3] )
 
 
 #' We could of also used `expr$geno == "A/A"` in the above, e.g.
-summary( expr$exp[ expr$geno == "A/A" ] )
+#summary( expr$exp[ expr$geno == "A/A" ] )
 
 #' Lets generate some nice plots of our results
 

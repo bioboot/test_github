@@ -1,6 +1,6 @@
 Section 4. Plotting Expression values
 ================
-Mon May 14 22:30:03 2018
+Mon May 14 22:36:01 2018
 
 This is a complement to the hands on session for lecture 13. First we need to load our expression data from a file (that you downloaded):
 
@@ -56,11 +56,8 @@ summary( expr[expr[,2] == "A/G",3] )
 We could of also used `expr$geno == "A/A"` in the above, e.g.
 
 ``` r
-summary( expr$exp[ expr$geno == "A/A" ] )
+#summary( expr$exp[ expr$geno == "A/A" ] )
 ```
-
-    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    ##   11.40   27.02   31.25   31.82   35.92   51.52
 
 Lets generate some nice plots of our results
 
